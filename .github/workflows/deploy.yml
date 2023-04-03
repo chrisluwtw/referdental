@@ -27,7 +27,7 @@ jobs:
     - name: Deploy to AWS S3
       uses: jakejarvis/s3-sync-action@master
       with:
-        args: --acl --delete --follow-symlinks
+        #args: --acl public-read --delete --follow-symlinks
     
       env:
         AWS_REGION: us-west-1 # Set your desired AWS region

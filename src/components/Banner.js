@@ -3,10 +3,10 @@ import React from 'react';
 function Banner() {
   return (
     <div className="banner">
-      <h1>Referdent (Company Name Home Page test2)</h1>
+      <h1>Referdent (Company Name Home Page test 5)</h1>
       <div className="banner-content">
         <div className="banner-item">
-          <h2>Users, people that will have access to Referdat</h2>
+          <h2>Users, people that will have access to Referdental </h2>
         </div>
         <div className="banner-item">
           <h2>What is the goal</h2>

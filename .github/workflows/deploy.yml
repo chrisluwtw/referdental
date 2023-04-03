@@ -29,7 +29,7 @@ jobs:
       with:
         args: --acl public-read --delete --follow-symlinks
         AWS_REGION: us-west-1 # Set your desired AWS region
-        AWS_S3_BUCKET: <referdental> # Replace with your bucket's name
+        AWS_S3_BUCKET: referdental # Replace with your bucket's name
         SOURCE_DIR: build
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
